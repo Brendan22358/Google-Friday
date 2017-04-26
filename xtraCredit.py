@@ -1,10 +1,12 @@
-def mux_letters(string,numberOfLetters):
+def mux_letters(inputstring,numberoftimes):
 	newstring=""
-	for letters in string:
-		newCharacters=letters*numberOfLetters
+	for letters in inputstring:
+		newCharacters=letters*numberoftimes
 		newstring+=newCharacters
 	return(newstring)
-lol=mux_letters("lets hug, what ryhmes with hug me?",2)
+lol=mux_letters("The",2)
 print(lol)
-lmao=mux_letters("I will Find you",3)
+lmao=mux_letters("AAbb",4)
 print(lmao)
+gfus=mux_letters("Hi-There",3)
+print(gfus)
